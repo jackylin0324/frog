@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Frog_IB.css">
+    <script src="https://kit.fontawesome.com/0bc8a6bba1.js" crossorigin="anonymous"></script>
+    <title>Frog</title>
+    <style>
+
+    </style>
+</head>
+<body>
+
+     <!-- ---------------------header---------------- -->
+     <nav>
+        <div class="logo">
+            <h4><a class="activehome" href="http://localhost:5500/Homepage/Homepage.html">豐山社區導覽</a></h4>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">首頁</a></li>
+            <li class="nav-hover-btn"><p style="cursor: pointer;">相關網站</p>
+                <div class="dropdown-content">
+                    <a class="nav_a" href="http://localhost:5500/frog/frog.html">小雨蛙</a>
+                    <a class="nav_a" href="#">豐田玉</a>
+                    <a class="nav_a" href="#">還有一個</a>
+                </div>
+            </li>
+            <li><a href="#">聯繫我們</a></li>
+            <li><a href="#">作者介紹</a></li>
+            <li><a href="#">登入</a><a href="#" style="border-left:2px solid;">註冊</a></li>
+            
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>        
+        </div>
+    </nav>
+
+    <div class="out_container">
+        <img src="img/previousbutton.png" class="IB_btn" style="cursor: pointer;"></p>
+        <div class="frog_own">
+            <div class="own_frogs" style="background-color:rgb(36, 88, 134); z-index: 2;">
+                <i class="fas fa-arrow-left" id="prevBtn"></i>
+                <i class="fas fa-arrow-right" id="nextBtn"></i>
+                <div class="carousel_slide_IB">
+                    <img src="img/frog01.jpg" id="lastClone" alt="" width="200px" height="150px" style="cursor:pointer; filter: grayscale(100%);">
+                    <img src="img/frog02.jpg" alt="" width="300px" height="150px">
+                    <img src="img/frog03.jpg" alt="" width="300px" height="150px">
+                    <img src="img/frog04.jpg" alt="" width="300px" height="150px" style="filter: grayscale(100%);">
+                    <img src="img/frog05.jpg" alt="" width="300px" height="150px">
+                    <img src="img/frog06.jpg" alt="" width="300px" height="150px" style="filter: grayscale(100%);">
+                    <img src="img/frog01.jpg" alt="" width="300px" height="150px" style="filter: grayscale(100%);">
+                    <img src="img/frog02.jpg" alt="" width="300px" height="150px" style="filter: grayscale(100%);">
+                    <img src="img/frog03.jpg" alt="" width="300px" height="150px" style="filter: grayscale(100%);">
+                    <img src="img/frog04.jpg" alt="" width="300px" height="150px" style="filter: grayscale(100%);">
+                    <img src="img/frog05.jpg" alt="" width="300px" height="150px">
+                    <img src="img/frog06.jpg" alt="" width="300px" height="150px">
+                    <img src="img/frog01.jpg" alt="" width="300px" height="150px">
+                    <img src="img/frog02.jpg" id="firstClone" alt="" width="300px" height="150px">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="front">
+                     <div class="content">
+                         <img src="img/frog01.jpg" alt="">
+                         <h3>台灣山椒魚</h3>
+                         <p>台灣山椒魚吻肛長大約6公分，全長大約9公分。成體背部以深褐色或紅褐色為主，其上綴有黃褐色或金黃色之不規則花紋。</p>
+                         <a class="flip" href="#">flip</a>
+                     </div>
+                </div>
+                <div class="back">
+                    <h4 class="back_back">back</h4>
+                    <h4>稀有度:5</h4>
+                    <h4>安全度:5</h4>
+                    <h4>隱密度:5</h4>
+                    <h4>親密度:5</h4>
+                    <a class="card_more" href="http://localhost:5500/frog/Frog_IB/frog_detail/%E5%8F%B0%E7%81%A3%E5%B1%B1%E6%A4%92%E9%AD%9A.html">Read more</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="front">
+                     <div class="content">
+                         <img src="img/frog02.jpg" alt="">
+                         <h3>盤古蟾蜍</h3>
+                         <p>盤古蟾蜍個體之間的體型差異很大，從6公分到20公分，雌蟾明顯地比雄蟾大很多。牠們身體背部的顏色及花紋也變化多端，體色有紅色、褐色或黑褐色；花紋則有些個體在體側有黑色縱紋，有些則素素淨淨、沒有任何斑紋。</p>
+                         <a class="flip" href="#">flip</a>
+                     </div>
+                </div>
+                 <div class="back">
+                    <h4 class="back_back">back</h4>
+                    <h4>稀有度:5</h4>
+                    <h4>安全度:5</h4>
+                    <h4>隱密度:5</h4>
+                    <h4>親密度:5</h4>
+                    <a href="#">Read more</a>
+                 </div>
+             </div>
+             <div class="card">
+                 <div class="front">
+                     <div class="content">
+                         <img src="img/frog03.jpg" alt="">
+                         <h3>小雨蛙</h3>
+                         <p>小雨蛙的頭小腹大，身體呈扁平的三角形，體長僅2到3公分。牠們因為背部有美麗的深色花紋，花紋類似兩個人字、塔狀或聖誕樹狀，對稱而且醒目，故又稱為飾紋姬蛙</p>
+                         <a class="flip" href="#">flip</a>
+                     </div>
+                 </div>
+                 <div class="back">
+                     <h4 class="back_back">back</h4>
+                     <h4>稀有度:5</h4>
+                     <h4>安全度:5</h4>
+                     <h4>隱密度:5</h4>
+                     <h4>親密度:5</h4>
+                     <a href="http://localhost:5500/frog/Frog_IB/frog_detail/%E5%B0%8F%E9%9B%A8%E8%9B%99.html">Read more</a>
+                  </div>
+             </div>
+             <div class="card">
+                 <div class="front">
+                     <div class="content">
+                         <img src="img/frog04.jpg" alt="">
+                         <h3>亞洲錦蛙</h3>
+                         <p>是狹口蛙家族裡的巨無霸，體長平均7公分。皮膚厚，光滑，但有一些圓形顆粒。背部棕色，有一個深棕色大三角形斑，看起來很像一個花瓶。</p>
+                         <a class="flip" href="#">flip</a>
+                     </div>
+                 </div>
+                 <div class="back">
+                     <h4 class="back_back">back</h4>
+                     <h4>稀有度:5</h4>
+                     <h4>安全度:5</h4>
+                     <h4>隱密度:5</h4>
+                     <h4>親密度:5</h4>
+                     <a href="#">Read more</a>
+                  </div>
+             </div>
+             <div class="card">
+                 <div class="front">
+                     <div class="content">
+                         <img src="img/frog05.jpg" alt="">
+                         <h3>台北赤蛙</h3>
+                         <p>臺北赤蛙體型小型，纖細修長，約3到5公分。背部金黃綠色或綠色。體側有白色背側褶極為醒目，背側褶內外側各有一條黑色縱帶，腹側另有一條白線，因此側面看起來是兩條黑線和兩條白線交錯排列，非常美麗而且特殊，因此台語又稱為神蛙。</p>
+                         <a class="flip" href="#">flip</a>
+                     </div>
+                 </div>
+                 <div class="back">
+                     <h4 class="back_back">back</h4>
+                     <h4>稀有度:5</h4>
+                     <h4>安全度:5</h4>
+                     <h4>隱密度:5</h4>
+                     <h4>親密度:5</h4>
+                     <a href="#">Read more</a>
+                  </div>
+             </div>
+             <div class="card">
+                 <div class="front">
+                     <div class="content">
+                         <img src="img/frog06.jpg" alt="">
+                         <h3>黑蒙西氏小雨蛙</h3>
+                         <p>牠們的體長僅2至3公分，是台灣青蛙家族中體型最小的成員之一。牠們有典型的狹口蛙科體型，頭小體寬。背面淺褐色或灰色，身體兩側有縱向的深色紋，讓牠們看起來更像個三角形。在背部中間有一條淺黃色背中線。</p>
+                         <a class="flip" href="#">flip</a>
+                     </div>
+                 </div>
+                 <div class="back">
+                     <h4 class="back_back">back</h4>
+                     <h4>稀有度:5</h4>
+                     <h4>安全度:5</h4>
+                     <h4>隱密度:5</h4>
+                     <h4>親密度:5</h4>
+                     <a href="#">Read more</a>
+                  </div>
+             </div>
+        </div>
+    </div>
+   
+<script src="Frog_IB.js"></script>
+</body>
+
+</html>
